@@ -18,7 +18,8 @@ const Login = () => {
         username={username} 
         setUsername={setUsername}
         password={password}
-        setPassword={setPassword}/>  
+        setPassword={setPassword}
+        label = "Login"/>  
         );
 };
 
@@ -30,7 +31,8 @@ const Register = () => {
     username={username} 
     setUsername={setUsername}
     password={password}
-    setPassword={setPassword}/>  
+    setPassword={setPassword}
+    label = "Register" />  
     );
 };
 
